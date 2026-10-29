@@ -1,0 +1,17 @@
+{
+  "name": "@estate/typo-kit",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "bun test",
+    "tsc": "bun x tsc --noEmit"
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./mcp": "./mcp/server.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "latest"
+  }
+}

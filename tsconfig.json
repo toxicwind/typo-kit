@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "strict": true,
+    "types": [
+      "bun-types"
+    ],
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": false
+  },
+  "include": [
+    "src",
+    "bin",
+    "mcp",
+    "tests",
+    "types"
+  ]
+}
